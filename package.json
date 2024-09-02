@@ -1,0 +1,27 @@
+{
+  "name": "youtrack-widget-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "check": "biome check",
+    "preview": "vite preview",
+    "package": "bun run build && rm -f youtrack-widget.zip && cd dist && zip -r ../youtrack-widget.zip ."
+  },
+  "dependencies": {
+    "@jetbrains/ring-ui-built": "^6.0.8",
+    "hub-dashboard-addons": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
