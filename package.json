@@ -1,8 +1,17 @@
 {
   "name": "youtrack-widget-template",
+  "description": "A template for building YouTrack custom widgets using Bun, Vite, TypeScript, React (with functional components), and Ring-UI.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "keywords": [
+    "youtrack",
+    "widget",
+    "template",
+    "react",
+    "typescript",
+    "ring-ui"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
