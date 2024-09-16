@@ -2,12 +2,14 @@ import { useEffect, useState } from "react"
 import Theme, { ThemeProvider } from "@jetbrains/ring-ui-built/components/global/theme"
 
 import "@jetbrains/ring-ui-built/components/style.css"
-import "./styles.css"
+import "./Windget.css"
 
 const darkMatcher = window.matchMedia("(prefers-color-scheme: dark)")
 
 export function Widget() {
   const [dark, setDark] = useState(darkMatcher.matches)
+
+  // const { youtrack, user } = useWidgetContext()
 
   useEffect(() => {
     const onChange = (e: MediaQueryListEvent) => setDark(e.matches)

@@ -3,16 +3,15 @@
   "name": "Youtrack Custom Widget",
   "version": "1.0.0",
   "description": "",
-  "author": "Damir Yusipov <damir@yusipov.com>",
+  "author": "Damir",
   "applicationName": "YouTrack",
   "dependencies": {
-    "YouTrack": ">=2024.1",
-    "Hub": ">=2024.1"
+    "YouTrack": ">=2019.1",
+    "Hub": ">=2018.2"
   },
   "products": {
-    "Hub": ">=2024.1",
-    "Upsource": ">=2024.1",
-    "YouTrack": ">=2024.1"
+    "YouTrack": ">=2019.1",
+    "Hub": ">=2018.2"
   },
   "view": {
     "fadeOut": true,

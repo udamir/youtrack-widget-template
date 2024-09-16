@@ -24,6 +24,9 @@
       },
       "performance": {
         "noDelete": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "info"
       }
     }
   },

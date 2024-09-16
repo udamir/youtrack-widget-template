@@ -2,7 +2,7 @@
   "name": "youtrack-widget-template",
   "description": "A template for building YouTrack custom widgets using Bun, Vite, TypeScript, React (with functional components), and Ring-UI.",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "keywords": [
     "youtrack",
@@ -23,14 +23,15 @@
     "@jetbrains/ring-ui-built": "^6.0.8",
     "hub-dashboard-addons": "^1.0.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "youtrack-client": "0.1.7"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.5.4",
     "vite": "^5.1.4"
   }
 }
