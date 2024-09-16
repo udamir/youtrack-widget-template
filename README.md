@@ -13,7 +13,13 @@ This repository can be used as a template so you don't need to fork it.
 
 ## Development
 
-Use the Widget Playground in Youtrack while developing in order to access the APIs in real time.
+Implement your Custom Widget as React functional component (src/components/Widget.tsx):
+1. Use JetBrains Ring-UI components to align Youtrack style.
+2. Use [youtrack-client](http://github.com/udamir/youtrack-client) in order to work with Youtrack API.
+
+## Widget preview
+
+Use the Widget Playground in Youtrack while developing to preview you widget in real time.
 
 1. Run ```bun dev``` to start the development server.
 2. Go to the Widget Playground, in the Custom Widgets section, on Youtrack.

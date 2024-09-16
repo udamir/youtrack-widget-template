@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
 import Theme, { ThemeProvider } from "@jetbrains/ring-ui-built/components/global/theme"
+import { useEffect, useState } from "react"
 
 import "@jetbrains/ring-ui-built/components/style.css"
 import "./Windget.css"
