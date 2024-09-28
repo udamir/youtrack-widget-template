@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "types/index.d.ts", "../youtrack-client/src", "../youtrack-client/temp/apiBuilder.ts"],
+  "include": ["src", "types/index.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
