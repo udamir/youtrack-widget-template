@@ -20,6 +20,7 @@
     "package": "bun run build && rm -f youtrack-widget.zip && cd dist && zip -r ../youtrack-widget.zip ."
   },
   "dependencies": {
+    "@jetbrains/hub-widget-ui": "^3.0.7",
     "@jetbrains/ring-ui-built": "^6.0.8",
     "hub-dashboard-addons": "^1.0.1",
     "react": "^18.3.1",
