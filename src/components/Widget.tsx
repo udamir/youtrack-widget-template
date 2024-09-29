@@ -1,4 +1,5 @@
 import Theme, { ThemeProvider } from "@jetbrains/ring-ui-built/components/global/theme"
+import type ConfigWrapper from "@jetbrains/hub-widget-ui/dist/config-wrapper"
 import { useEffect, useState } from "react"
 
 import "@jetbrains/ring-ui-built/components/style.css"
@@ -6,10 +7,16 @@ import "./Windget.css"
 
 const darkMatcher = window.matchMedia("(prefers-color-scheme: dark)")
 
-export function Widget() {
+interface WidgetProps {
+  configWrapper: ConfigWrapper
+  editable?: boolean
+}
+
+export function Widget(props: WidgetProps) {
   const [dark, setDark] = useState(darkMatcher.matches)
 
   // const { youtrack, user } = useWidgetContext()
+  // const { configWrapper, editable } = props
 
   useEffect(() => {
     const onChange = (e: MediaQueryListEvent) => setDark(e.matches)
